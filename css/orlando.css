@@ -116,7 +116,6 @@ header #logotipo {
 #menu li {
 	display: inline-block;
 	font-family: "OpenSans";
-	size: 
 }
 #menu li.search {
 	width: 200px;
@@ -169,4 +168,37 @@ header #logotipo {
 	color: #fff;
 	font-family: 'OpenSans';
 	font-weight: bold;
+}
+#news {
+	position: relative;
+	top:  -110px;
+}
+#news h2 {
+	width: 100%;
+	color: #5e2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border: #fde192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5e299a;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+#news .thumbnails time {
+	color: #a7a7a7;
+	font-size: 18px;
+	font-family: 'OpenSans';
 }
