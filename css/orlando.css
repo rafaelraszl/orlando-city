@@ -182,7 +182,7 @@ header #logotipo {
 	text-align: center;
 }
 #news hr {
-	border: #fde192 solid 2px;
+	border: #fde192 solid 4px;
 	width: 200px;
 	margin: 0 auto;
 }
@@ -221,4 +221,49 @@ header #logotipo {
 	font-family: 'OpenSans-Light';
 	font-size: 24px;
 	display: block;
+}
+#call-to-action {
+	text-align: center;
+	margin-top: 50px;
+}
+#call-to-action h2 {
+	width: 100%;
+	color: #5e2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+}
+#call-to-action hr {
+	border: #fde192 solid 4px;
+	width: 200px;
+	margin: 0 auto;
+}
+#call-to-action p {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #656565;
+}
+#call-to-action .btn {
+	min-width: 164px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 0;
+}
+#call-to-action .btn-roxo {
+    color: #fff;
+    background-color: #5E299A;
+    border-color: #5E299A;
+    margin-right: 25px;
+}
+#call-to-action .btn-amarelo {
+    color: #000;
+    background-color: #FDE192;
+    border-color: #FDE192;
+    margin-left: 25px;
+}
+#call-to-action .row-max-400 {
+	margin: 0 auto;
+	max-width: 400px;
+}
+#call-to-action .text-center {
+	display: inline-block;
 }
