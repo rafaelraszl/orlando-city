@@ -108,7 +108,6 @@ header .header-black li a {
 header #logotipo {
 	position: absolute;
 	top: 18px;
-
 }
 #menu {
 	margin: 40px 0;
@@ -210,7 +209,6 @@ header #logotipo {
 }
 #estatisticas p {
 	color: #fde092;
-	text-transform: uppercase;
 	font-family: 'OpenSans';
 	font-size: 64px;
 	margin-top: 33px;
@@ -266,4 +264,117 @@ header #logotipo {
 }
 #call-to-action .text-center {
 	display: inline-block;
+}
+footer {
+
+	margin-top: 110px;
+}
+footer .row {
+	width: 100%;
+	margin: 0;
+}
+footer .row p {
+	line-height: 60px;
+	margin: 0;
+}
+footer .row-cinza-claro {
+	height: 200px;
+	background-color: #171f26;
+}
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #11171d;
+	border-top: #242d37 1px solid;
+}
+footer .float-left {
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color: #666;
+}
+footer .text-roxo {
+	color: #623291;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	font-size: 14px;
+}
+footer .logotipo {
+	margin-top: 30px;
+}
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 17px;
+	border-bottom:#242d37 1px solid;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: #fde092;
+	font-family: Arial;
+	font-size: 14px;
+}
+/*footer .row-cols ul {
+	list-style: none;
+}*/
+footer .col-links a {
+	color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links .fa {
+	margin: 0 6px;
+}
+footer .col-get-in-touch address {
+	color:  #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .col-get-in-touch address span {
+	display: inline-block;
+}
+footer .col-get-in-touch address i {
+	position: relative;
+	top:  -7px;
+}
+footer .col-get-in-touch i {
+	color:  #9b9b9b;
+	font-size: 20px;
+	margin: 0 6px;
+}
+footer .col-get-in-touch a {
+	color: #666;
+}
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
+footer .list-socials {
+	margin-top: 4px;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 40px;
+	height: 40px;
+	line-height: 28px;
+	border-radius: 20px;
+	text-align: center;
+}
+footer .list-socials i {
+	font-size: 20px;
+	margin: 9px auto;
 }
